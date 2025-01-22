@@ -74,7 +74,7 @@ const Search = () => {
                     placeholder="Enter Character Name..." 
                     onChange={handleChange} 
                     className="center max-w-xs my-1 mx-auto italic font-bold p-2 px-4 border-2 border-black transition ease-in-out hover:scale-110 text-center text-yellow-400 focus:bg-black/60 uppercase"/>
-                <div>
+                <div className="flex justify-center items-center">
                     <button 
                         type="submit"
                         className="italic font-bold p-1 px-4 text-black bg-yellow-400 transition ease-in-out hover:scale-110 border-black border-2">SEARCH</button>
