@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 const Footers = () => {
   return (
-    <section className="bottom-0 w-full bg-red-800 text-gray-200 py-4">
+    <section className="flex w-full bg-red-800 text-gray-200 py-4">
       <div className="container mx-auto px-6 text-center">
         <p className="mb-2">
           Powered by the{' '}
@@ -45,14 +45,14 @@ const Footers = () => {
           </a>
         </div>
         <p className="text-sm">
-          Visit my personal website: 
+          For more projects, visit: 
           <a
             href="https://npmdevx.vercel.app"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-yellow-500 hover:underline ml-2"
+            className="text-yellow-300 hover:underline ml-2"
           >
-             npmdevx.vercel.app
+             npmdevx
           </a>
         </p>
       </div>

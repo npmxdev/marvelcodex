@@ -2,7 +2,7 @@ import React from 'react'
 
 const Comics = ({data}) => {
   return (
-    <div className="flex flex-wrap justify-center gap-6 p-4">
+    <div className="flex flex-wrap justify-center min-h-screen gap-6 p-4">
       {data.map((comic) => {
         const detailsUrl = comic.urls.find(element => element["type"] === "detail").url;
 

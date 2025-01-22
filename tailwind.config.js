@@ -11,7 +11,7 @@ export default {
         50: '20%',
       },
       fontFamily: {
-        bangers: ['Bangers', 'cursive'], // Add the Marvel font family
+        bangers: ['Bangers', 'Comic Sans MS', 'cursive', 'sans-serif']
       },
       animation: {
         floating: "floating 3s ease-in-out infinite", // Animation name and duration
